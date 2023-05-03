@@ -35,6 +35,7 @@ add_message_files(
   XL320.msg
   XM.msg
   XMExt.msg
+  DynamixelCommand.msg
   DynamixelState.msg
   DynamixelStateList.msg
   DynamixelInfo.msg
@@ -44,7 +45,6 @@ add_message_files(
 add_service_files(
   FILES
   GetDynamixelInfo.srv
-  DynamixelCommand.srv
 )
 
 generate_messages(

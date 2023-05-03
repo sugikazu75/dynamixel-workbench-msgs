@@ -1,0 +1,5 @@
+string command
+
+uint8 id
+string addr_name
+int32 value
